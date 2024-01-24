@@ -38,7 +38,6 @@ def my_details(request):
     add ="Basampalli"
     designation ="Software Engineer"
 
-# def something(request):
-#     pass
-def add(a,b):
+
+def sample(request):
     pass
