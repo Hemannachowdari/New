@@ -40,3 +40,5 @@ def my_details(request):
 
 # def something(request):
 #     pass
+def add(a,b):
+    pass
