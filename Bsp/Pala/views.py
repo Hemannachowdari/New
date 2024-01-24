@@ -39,5 +39,10 @@ def my_details(request):
     designation ="Software Engineer"
 
 
+
+
 def sample(request):
-    pass
+    name ="Hemannachowdari"
+    sur_name ="Palabandla"
+    add ="Basampalli"
+    designation ="Software Engineer"
