@@ -38,11 +38,17 @@ def my_details(request):
     add ="Basampalli"
     designation ="Software Engineer"
 
+    context_detials ={"name":name,"sur_name":sur_name,"add":add,"designation":designation }
+    return render(request,'My_details.html',context_detials)
 
 
 
-def sample(request):
-    name ="Hemannachowdari"
-    sur_name ="Palabandla"
-    add ="Basampalli"
-    designation ="Software Engineer"
+
+# def sample(request):
+#     name ="Hemannachowdari"
+#     sur_name ="Palabandla"
+#     add ="Basampalli"
+#     designation ="Software Engineer"
+#
+#     context_detials = {"name": name, "sur_name": sur_name, "add": add, "designation": designation}
+#     return render(request, 'My_details.html', context_detials)

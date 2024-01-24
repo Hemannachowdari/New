@@ -9,4 +9,6 @@ urlpatterns = [
     path('',views.home),
     path('add',views.add),
     path('emp/',views.emp_details),
+    path("my/",views.my_details),
+
 ]
